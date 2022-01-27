@@ -1,0 +1,7 @@
+.timer-container{
+    background-image: url('../../images/img1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 250px; */
+    height: 300px;
+}

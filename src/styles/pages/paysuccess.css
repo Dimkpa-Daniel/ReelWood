@@ -1,0 +1,25 @@
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) {
+.paySuccess{
+      width:90%;
+      margin-left:5%;
+      margin-top:30px;
+   }
+
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) {
+
+   .paySuccess{
+      width:30%;
+      margin-left:35%;
+      margin-top:30px;
+   }
+
+}

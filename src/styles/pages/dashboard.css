@@ -1,0 +1,53 @@
+
+
+
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+   .count{
+      background: #122C65;    
+      border-radius: 5px;
+      width:30%;
+      margin:1% 1% 5% 1%;
+      display: inline-block;
+      color:white
+      
+   }
+
+   .checkin{
+      width:90%;
+      margin-left:5%;
+   }
+
+   .container{
+      margin-top:40px
+   }
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+   .count{
+      background: #122C65;    
+      border-radius: 5px;
+      width:30%;
+      margin:1% 1% 5% 1%;
+      display: inline-block;
+      color:white
+   }
+
+   .checkin{
+      width:40%;
+      float:right;
+      margin-top:20px
+   }
+   .container{
+      margin-top:50px
+   }
+
+}

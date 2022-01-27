@@ -1,0 +1,387 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+// THE BACKGROUND AND AD COMPONENT
+
+.background{
+    background-color: rgb(39, 37, 37);
+  
+  // CAROUSEL FIT & POSITION TO THE CONTAINER
+    #carouselExampleCaptions .carousel-item img {  
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+      height: 35vh;
+    }
+  
+    // Background color/gradient
+    #carouselExampleCaptions .carousel-item:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background-image: 
+        linear-gradient(
+          to top,
+          rgba(231, 63, 247, 0.3),rgba(231, 63, 247, 0.3)
+        );
+      width: 100vw;
+      top: 0;
+      height: 100vh;
+    }
+    .carousel{
+      // background: linear-gradient(rgba(231, 63, 247, 0.3),rgba(231, 63, 247, 0.3) );
+      .carousel-caption{
+        top: 0;
+        bottom: auto;
+        
+      }
+      // .carousel-item {
+      //   img{
+      //     background: linear-gradient(rgba(231, 63, 247, 0.3),rgba(231, 63, 247, 0.3) );
+      //   }
+      // }
+      .d-btn3{
+        height: 40px;
+            margin-top: 10px;
+            background-color: purple !important;
+            border: 2px solid purple;
+            border-radius: 10px;
+    }
+    }
+   
+  .d-fluid{
+    background: purple;
+  // background-image: linear-gradient(rgba(231, 63, 247, 0.3),rgba(231, 63, 247, 0.3) ), url(../../../assets/main-background.png);
+  //   width: 100%;
+  //   height: 450px;
+  // background-size: cover;
+  // padding-top: 100px;
+  
+  
+  }
+  .d-container{
+    background-image: url(../../assets/Asa3.jpg);
+    margin-top: -10px;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .d-container:before {
+    background: rgb(39, 37, 37);
+    position: absolute;
+    content: "";
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .d-container:after {
+    background: rgb(39, 37, 37);
+    position: absolute;
+    content: "";
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .d-container2{
+    background-color: rgb(216, 20, 216);
+    position: relative;
+    margin-top: 80px;
+    
+    .row{
+      padding-top: 30px;
+      
+    }
+    .ad-input{
+      height: 30px;
+      width: 300px;
+    }
+    .ad-btn{
+      height: 20px;
+      padding-bottom: 25px;
+      width: 50px;
+      margin-left: -50px;
+      background-color: purple;
+      border: purple;
+    }
+    .d-col1{
+      .d-img{
+        margin-left: 30px;
+        border-radius: 5px;
+      }
+    }
+    // .d-col2{
+      
+    // }
+    .d-col3{
+      margin-left: 80px;
+    }
+  
+    .next{
+      padding-left: 50px;
+      
+    }
+    .previous{
+      padding-right: 50px;
+    }
+   
+  }
+  .d-container2:before {
+    background: rgb(39, 37, 37);
+    position: absolute;
+    content: "";
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .d-container2:after {
+    background: rgb(39, 37, 37);
+    position: absolute;
+    content: "";
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .d-hr{
+    background-color: purple;
+    height: 10px;
+    margin: auto;
+    width: 84.5%;
+    margin-top: 30px;
+  }
+  
+  
+  // ADVERT CAROUSEL
+  @media (max-width: 375px){
+    .d-container2{
+      padding-bottom: 20px !important;
+      .d-img{
+        height: 55% !important;
+        width: 80% !important;
+      } 
+  
+      .ad-input{
+        width: 15rem !important;
+     
+      }
+      .ad-form{
+        margin-left: -40px !important;
+      }
+      .d-col2{
+         margin-left: -20px !important;
+        p{
+          font-weight: bolder !important;
+          color: white !important;
+        }
+      }
+    }
+       
+       
+  }
+  
+  @media (max-width: 400px) {
+    .next{
+      padding-left: 35px !important;
+      
+    }
+    .previous{
+      padding-right: 35px !important;
+    }
+  }
+  
+  @media (max-width: 480px){
+    .d-container2{
+      padding-bottom: 20px !important;
+      .d-img{
+        height: 55% !important;
+        width: 80% !important;
+      } 
+  
+      .ad-input{
+        width: 15rem !important;
+     
+      }
+      .ad-form{
+        margin-left: -20px !important;
+      }
+      .d-col2{
+         margin-left: -20px !important;
+        p{
+          font-weight: bolder !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+  
+  
+  @media (max-width: 500px) {
+    .d-container{
+      padding-top: 140px !important;
+     height: 250px !important;
+     h3 img{
+       height: 30px;
+       width: 30px;
+     }
+    }
+  }
+  
+  @media (min-width: 452px) and (max-width: 767px){
+    #carouselExampleCaptions .carousel-item img{
+      height: 45vh;
+    }
+  }
+  @media (min-width: 768px){
+    #carouselExampleCaptions .carousel-item img{
+  height: 70vh;
+    }
+  }
+  @media (min-width: 1024px){
+    #carouselExampleCaptions .carousel-item img{
+  height: 95vh;
+    }
+  }
+  
+  @media (min-width: 480px){
+    .d-container2{
+      padding-bottom: 20px !important;
+      .d-col2{
+        margin-left: -10px !important;
+        p{
+          font-weight: bolder !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 711px){
+    .ad-form{
+      margin-left: 60px !important;
+    }
+  }
+  @media (min-width: 771px){
+    .ad-form{
+      margin-left: 110px !important;
+    }
+    
+  }
+  
+  @media (min-width: 768px){
+    .next{
+        padding-left: 80px !important;
+        
+      }
+      .previous{
+        padding-right: 80px !important;
+      }
+  }
+  
+  @media (min-width: 992px){
+    .d-col1{
+      margin-left: 40px !important;
+    }
+    .d-col2{
+      margin-right: -5rem !important;
+      p{
+        margin-left: -30px !important;
+      }
+    }
+    .ad-form{
+      margin-left: 45px !important;
+      .ad-input{
+        width: 12rem !important;
+      }
+    }
+    .next{ 
+      padding-left: 120px !important;
+    }
+    .previous{
+      padding-right: 120px !important;
+    }
+    }
+  @media (min-width: 1200px){
+    .next{ 
+      padding-left: 145px !important;
+    }
+    .previous{
+      padding-right: 145px !important;
+    }
+  }
+  
+  // BACKGROUND-CAROUSEL {SECOND COMPONENT}
+  
+  @media (max-width: 451px){
+    .carousel-caption{
+   margin-top: -70px !important;
+      h4{
+        padding-top: 80px;
+        font-size: 15px !important;
+     
+      }
+      p{
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 5px !important;
+      }
+      button{
+        margin: 0 !important;
+      }
+    }
+  }
+  
+  @media (min-width: 768px){
+      .carousel-caption {
+        margin-top: 60px;
+        h4{
+          font-size: 30px;
+        }
+        p{
+          font-size: 20px;
+        }
+        button{
+          font-size: 20px;
+          font-weight: bold;
+          height: 60px !important;
+          padding: 0 30px;
+        }
+    }
+     
+  }
+  
+  @media (min-width: 1024px){
+    .carousel-caption{
+      margin-top: 150px !important;
+    }
+    .d-container{
+      margin-top: -70px;
+    }
+  }
+  
+  @media (min-width: 1300px){
+    .d-container{
+      margin-top: -150px;
+    }
+  }
+  
+  @media (max-width: 767px){
+    margin-top: 60px;
+  }
+  }
+  

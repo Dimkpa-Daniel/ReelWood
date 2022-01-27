@@ -1,0 +1,36 @@
+.grabTicket{
+   border:0.5px solid rgb(18, 74, 195);
+   padding:10px 12px ;
+   font-weight:bold;
+   color:white;
+  
+}
+
+
+
+.grabTicket:hover{
+   border:0.5px solid rgb(18, 74, 195);
+   padding:10px 32px ;
+   font-weight:bold;
+   /* background-color: #124AC3; */
+    background: linear-gradient(to bottom right, black, #124ac3);
+   color:white
+}
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+   .cards{
+      width:30;
+   }
+
+}

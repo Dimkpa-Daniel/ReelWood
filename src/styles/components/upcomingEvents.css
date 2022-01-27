@@ -1,0 +1,44 @@
+.card{
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.24);
+}
+
+.see-more:hover{
+    /* background-color: royalblue; */
+     background: linear-gradient(to bottom right, black, #124ac3);
+    color:white
+}
+
+.see-more{
+    color:white;
+    border:0.5px solid #124AC3;
+}
+
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+    .card{
+      width:100%;
+   }
+
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+   .card{
+      width:24%;
+   }
+
+
+   .c-holder{
+       padding-left: 50px;
+   }
+
+}

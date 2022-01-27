@@ -1,0 +1,36 @@
+.time-date-container{
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.time-date-container > div {
+    display: inherit;
+    align-items: center;
+}
+.time-date-container > div > p{
+    margin: 15px auto;
+}
+.time-date-card{
+    background: black;
+    margin-top: -40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    border:1px solid rgb(18, 74, 195)
+}
+
+.time-date-card > div {
+    display: inherit;
+    align-items: center;
+}
+.time-date-card > div > p{
+    margin: 15px auto;
+}
+

@@ -1,0 +1,32 @@
+.hero{
+    background-image: url("../../images/hero.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-card{
+    /* width: 80%; */
+}
+@media screen and (max-width:600px) {
+   .hero-card{
+    margin-top: 5%;
+   }
+}
+
+.hero-card input {
+    border-color: #1248BD;
+}
+
+h1{
+    color: #fff;
+}
+
+.hero2{
+    background-image: url("../../images/hero2.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,20 @@
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+   .select-tickets{
+       margin-top:-500px;
+   }
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+   .select-tickets{
+       margin-top:-150px
+   }
+
+}

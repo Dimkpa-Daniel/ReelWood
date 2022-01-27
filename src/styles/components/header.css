@@ -1,0 +1,54 @@
+
+
+ 
+
+.createEvent{
+   color:#010306;
+   background-color:#1fbff2 ;
+   font-weight:bold,
+}
+
+
+
+.createEvent:hover{
+   color:white;
+   background-color: #010306;
+   border:1px solid #1fbff2
+}
+
+
+.allEvents{
+  color:white;
+   background-color: rgb(26, 33, 41);
+   
+}
+
+.allEvents:hover{
+   color:white;
+   background-color: #1fbff2;
+}
+
+.eventTitle:hover{
+   color:white
+
+   
+}
+.eventTitle{
+   cursor: pointer;
+   color:#1fbff2
+}
+
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) {  
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) {  
+} 

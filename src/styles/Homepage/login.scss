@@ -1,0 +1,201 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// THE NAVBAR
+.d-nav{
+    height: 60px;
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    button{
+        margin-right: 20px;
+    }
+    ul{
+       
+       margin-left: 60px;
+        li a{
+          color: white !important;
+          font-weight: bold;
+          margin-left: 30px;
+          border-bottom: 2px solid transparent;
+          &:hover{
+              border-bottom: 2px solid purple;
+              }
+       
+      }
+       
+        form{
+          
+            input{
+                width: 90%;
+                margin-left: 20px;
+            }
+        }
+    }
+    .d-div{
+       
+      height: 60px; 
+      .d-btn{
+          // margin-left: 120px;
+          height: 40px;
+          margin-top: 10px;
+          color: black;
+          font-weight: bold;
+          border-radius: 10px;
+      }
+      .d-btn1{
+          // margin-left: 120px;
+          height: 40px;
+          margin-top: 10px;
+          background-color: purple !important;
+          border: 2px solid purple;
+          border-radius: 10px;
+      }
+    }
+    // @media (max-width: 991px){
+    //   .nav-link{
+    //     color: blue !important;
+    //   }
+    // }
+   
+  }
+
+
+//   LOGIN
+
+.login{
+    background-color: rgb(39, 37, 37);
+    height: 100vh;
+   
+    .container-fluid{
+        padding-top: 50px;
+        padding-bottom: 150px;
+        background-color: rgb(39, 37, 37);
+        .container{
+           
+            .row{
+             
+              .login-sm{
+                  padding: 40px;
+                  padding-top: 80px;
+                 background-color: white;
+                 border-top-left-radius: 10px;
+                 border-top-right-radius: 10px;
+                 .signup-btn{
+                  background-color: purple;
+                 color: white;
+                 font-weight: bold;
+                 border: none;
+                 &:hover{
+                  background-color: white !important;
+                  color: black;
+                  border: 2px solid purple;
+                }
+                &:focus{
+                  box-shadow: 0 0 0 0.2rem transparent !important;
+                }
+              }
+              
+              
+              }
+              .login-sm2{
+                  background-color: purple;
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+                  .login-btn{
+                     background-color: white;
+                     color: purple;
+                     font-weight: bold;
+                     border: none;
+                     &:hover{
+                      background-color: purple !important;
+                      color: black;
+                      border: 2px solid white;
+                    }
+                    &:focus{
+                      box-shadow: 0 0 0 0.2rem transparent !important;
+                    }
+                    
+                  }
+                  .input-group-addon{
+                      // color:#ff0000;
+                       background-color: #ffffff;
+                       padding: 5px;
+                       border-top-left-radius: 5px;
+                       border-bottom-left-radius: 5px;
+                      
+                       img{
+                           width: 20px;
+                           height: 20px;
+                       }
+                      }
+                  
+                 input{
+                  border-left: transparent;
+                  border: transparent !important;
+                  &:focus{
+                     box-shadow: 0 0 0 0.2rem transparent !important;
+                    }
+                 }
+              }
+            }
+        }
+    }
+
+
+   @media (min-width: 576px){
+       .login-sm{
+          //  width: 50%;
+          //  height: 66.5vh !important;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 0px !important;
+          border-bottom-left-radius: 10px;
+          padding-top: 150px;
+       }
+       .login-sm2{
+          // width: 50%;
+          height: 50vh !important;
+          border-bottom-left-radius: 0px !important;
+          border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+          background-color: purple;
+          border-left: 80px solid white;
+          border-bottom: 330px solid transparent;
+          box-sizing: border-box;
+          
+          
+       }
+   }
+
+@media (min-width: 567px) and (max-width: 767px){
+  .login-sm{
+      padding-top: 50px !important;
+  }
+  
+}
+
+
+   @media (min-width: 768px){
+       h3{
+           padding: 20px;
+       }
+       .login-btn{
+           margin-top: 40px;
+       }
+
+       
+       .login-sm2{
+          height: 400px !important;
+          border-bottom: 450px solid transparent;
+          h3{
+              padding-top: 30px;
+          }
+          form{
+              padding-top: 30px;
+          }
+       }
+   }
+} 
+
+
+

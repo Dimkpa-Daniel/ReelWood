@@ -1,0 +1,147 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+.featured{
+    background-color: rgb(39, 37, 37);
+    padding-bottom: 100px;
+    
+    .card-heading{
+     
+      span{
+        font-size: 50px;
+        color: purple;
+      }
+      p{
+        font-weight: bold;
+        // margin-left: 25px !important;
+      }
+      
+    }
+    .row{
+      padding-bottom: 50px;
+    
+      .card{
+        border-radius: 10px;
+        border: none ;
+        height: 330px;
+      
+        .featured-bg-image{
+          position: relative;
+        //   background-image: url(../../../assets/Asa3.jpg);
+          height: 40vh;
+        //   background-size: cover;
+        //   background-repeat: no-repeat; 
+        }
+        .featured-bg-image:before {
+          background: rgb(39, 37, 37);
+          position: absolute;
+          content: "";
+          left: -25px;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+        }
+        
+        .featured-bg-image:after {
+          background: rgb(39, 37, 37);
+          position: absolute;
+          content: "";
+          right: -25px;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+        }
+        
+        .card-body{
+          background-color: rgb(39, 37, 37);
+          padding-bottom: 0 !important;
+        
+          // .f-col{
+          //   padding-right: 50px !important;
+          //   width: 200px !important;
+          // }
+          .location{
+            margin-bottom: 0 !important;
+          }
+          .featured-btn{
+            padding-left: 90px !important;
+            .btn{
+              color: white;
+              border: 2px solid purple;
+              border-radius: 10px !important;
+              
+            }
+            .btn:hover{
+              background-color: purple;
+            }
+            .btn:focus{
+              box-shadow: 0 0 0 0.2rem purple !important;
+            }
+        
+          }
+        }
+      }
+    }
+    .show-all{
+      .btn{
+        color: white;
+        border: 2px solid purple;
+        border-radius: 10px !important;
+        background-color: purple;
+        font-weight: bold;
+        padding: 20px 50px;
+        
+      }
+      .btn:hover{
+        background-color: rgb(39, 37, 37);
+      }
+      .btn:focus{
+        box-shadow: 0 0 0 0.2rem purple !important;
+      }
+    }
+    
+    
+    
+    @media (min-width: 840px) and (max-width: 1259px){
+    .row{
+      .featured-col{
+        width: 320px !important;
+      }
+      .card-body{
+        .d-flex{
+          display:block !important;
+        }
+      }
+      // .featured-btn{
+      //   .btn{
+      //     font-size: 10px !important;
+          
+      //   }
+      // }
+    }
+    }
+    
+    }
+
+    .show-all{
+      .btn{
+        color: white;
+        border: 2px solid purple;
+        border-radius: 10px !important;
+        background-color: purple;
+        font-weight: bold;
+        padding: 20px 50px;
+        
+      }
+      .btn:hover{
+        background-color: rgb(39, 37, 37);
+      }
+      .btn:focus{
+        box-shadow: 0 0 0 0.2rem purple !important;
+      }
+    }

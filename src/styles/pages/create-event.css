@@ -1,0 +1,103 @@
+.create-event{
+    /* margin-top: 5%; */
+    padding-top: 16%; 
+    color:white
+}
+
+.file-box{
+    background: #F6F6F6;
+
+}
+
+.terms{
+    padding:10px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) {
+    .firstRow{
+        /* background-color: red; */
+        margin-top:-70px
+    }
+
+    .file-box{
+        /* background-color: red;  */
+        margin-bottom:40px
+    }
+
+    .imgPrev{
+        width: 340px;
+        height: 200px;
+        background-color: lightgray;
+        margin-top: 10px;
+        padding:80px 0px;
+        text-align: center;
+    }
+
+    .imgPrev2{
+        width: 100%;
+        /* height: 200px; */
+        background-color: lightgray;
+        margin-top: 10px; 
+        text-align: center;
+    }
+
+    .addBtn{
+        width:90%
+    }
+
+
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+    .firstRow{
+        /* background-color: red; */
+        margin-top:-230px;
+        
+    }
+
+    .imgPrev{
+        width: 100%;
+        height: 200px;
+        background-color: lightgray;
+        margin-top: 10px;
+        padding:80px 0px;
+        text-align: center;
+    }
+
+    .imgPrev2{
+        width: 100%;
+        /* height: 200px; */
+        background-color: lightgray;
+        margin-top: 10px; 
+        text-align: center;
+    }
+
+    .addBtn{
+        width:60%
+    }
+
+    .create-event{
+        width:70%;
+        margin-left: 15%; 
+    }
+}

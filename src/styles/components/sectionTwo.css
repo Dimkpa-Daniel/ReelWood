@@ -1,0 +1,38 @@
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+    .sectionTwo{
+        background-image: url('../../images/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+
+    .sect2Row{
+        /* background-color: green; */
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+    .sectionTwo{
+        background-image: url('../../images/img2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sect2Holder{
+        /* background-color: red;  */
+        width: 50%;
+    }
+
+}
+

@@ -1,0 +1,54 @@
+.event-category{
+    text-align: center;
+    border: 1px solid #124AC3;
+   width: 20%; 
+   cursor:pointer
+}
+
+.event-categories{
+    display: flex;
+    justify-content: space-around;
+}
+
+.event-category:hover{
+    /* background-color: royalblue; */
+     background: linear-gradient(to bottom right, black, #124ac3);
+    color:white
+}
+
+/* ================== */
+/* EVENT BODY */
+/* ================== */
+
+.desc{
+    background: #EAEFFA;
+    padding: 20px 10px;
+    font-weight: normal;
+}
+
+
+
+.select-ticket{
+    background-color: #fff;
+}
+
+.select-ticket-text{
+    text-align: center;
+    color: #124AC3;
+}
+
+
+/*************************** start of  smaller screen *******************/
+@media only screen and (max-width: 690px) { 
+
+}
+
+
+
+
+
+
+/*************************** start of  larger screen *******************/
+@media only screen and (min-width: 690px) { 
+
+}

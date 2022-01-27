@@ -1,0 +1,18 @@
+.link:hover{
+    color:white; 
+}
+
+.link{
+    text-decoration: none;
+    color:white
+}
+
+.link2{
+    color:rgb(31, 191, 242)
+}
+
+
+.links:hover{
+    color:white;
+    border: 1px solid blue
+}
